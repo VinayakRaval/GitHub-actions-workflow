@@ -1,0 +1,11 @@
+name : Hello
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hey this is vinu
+        run: echo "hello frds"
